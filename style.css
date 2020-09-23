@@ -20,7 +20,7 @@ main {
 }
 
 footer {
-    background-color: lightsteelblue;
+    background-color: lightgray;
     width: 100%;
 
 }
@@ -31,7 +31,7 @@ div {
 
 .left {
     display: grid;
-    background-color: lightsteelblue;
+    background-color: lightgray;
     grid-template-rows: 60px 45px 40px 140px 195px;
 }
 
@@ -43,6 +43,6 @@ div {
 
 .right {
     display: grid;
-    background-color: lightsteelblue;
+    background-color: lightgray;
     grid-template-rows: 45px 25px 25px 25px 25px 25px;
 }
