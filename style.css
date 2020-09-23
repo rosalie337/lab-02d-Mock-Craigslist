@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 100%;
+    width: 868px;
+    display: grid;
+    grid-template-columns: 30% 60% 20%;
+    grid-gap: 20px;
+}
+
+footer {
+    background-color: lightsteelblue;
+    width: 100%;
+
+}
+
+div {
+    color: blue;
+}
+
+.left {
+    display: grid;
+    background-color: lightsteelblue;
+    grid-template-rows: 60px 45px 40px 140px 195px;
+}
+
+.middle {
+    display: grid;
+    grid-template-rows: 45px 1fr;
+
+}
+
+.right {
+    display: grid;
+    background-color: lightsteelblue;
+    grid-template-rows: 45px 25px 25px 25px 25px 25px;
+}
