@@ -21,8 +21,11 @@ main {
 
 footer {
     background-color: lightgray;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-
+    height: 2.5rem; 
+    text-align: center;
 }
 
 div {
@@ -33,6 +36,7 @@ div {
     display: grid;
     background-color: lightgray;
     grid-template-rows: 60px 45px 40px 140px 195px;
+    text-align: center;
 }
 
 .middle {
@@ -45,4 +49,5 @@ div {
     display: grid;
     background-color: lightgray;
     grid-template-rows: 45px 25px 25px 25px 25px 25px;
+    text-align: center;
 }
